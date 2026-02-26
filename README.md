@@ -40,7 +40,7 @@ This operation is performed based on the alphabetically sorted order of files in
 
 **⚠️ IMPORTANT: Always create a backup of your target folder before running this script. The renaming operation is irreversible.**
 
-1.  Open the script (`your_script_name.py`) in any code editor.
+1.  Open the script (`files_renamer.py`) in any code editor.
 2.  Navigate to the bottom of the file, inside the `if __name__ == "__main__":` block.
 3.  Modify the `source` and `target` variables to point to your actual folder paths:
 
@@ -56,7 +56,7 @@ This operation is performed based on the alphabetically sorted order of files in
 4.  Save the file and run it from your terminal:
 
     ```bash
-    python your_script_name.py
+    python files_renamer.py
     ```
 
 #### Example Output:
